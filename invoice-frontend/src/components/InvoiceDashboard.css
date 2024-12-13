@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .invoice-dashboard {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .dashboard-title {
+    font-size: 2.5rem;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .filter-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .search-input,
+  .filter-input {
+    padding: 0.5rem;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    width: 200px;
+  }
+  
+  .search-button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .invoice-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  .invoice-table th,
+  .invoice-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #cccccc;
+  }
+  
+  .invoice-table th {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
+  .invoice-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
