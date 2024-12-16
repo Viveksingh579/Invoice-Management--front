@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 import './InvoiceDashboard.css';
 
 const InvoiceDashboard = () => {
@@ -54,6 +55,10 @@ const InvoiceDashboard = () => {
           className="filter-input"
         />
         <button onClick={handleSearch} className="search-button">Search</button>
+      </div>
+      <div className="invoice-actions">
+        <Link to="/insert-invoice" className="action-button">Insert Invoice</Link>
+        <Link to="/delete-invoice" className="action-button">Delete Invoice</Link>
       </div>
       <table className="invoice-table">
         <thead>
