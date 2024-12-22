@@ -59,6 +59,7 @@ const InvoiceDashboard = () => {
       <div className="invoice-actions">
         <Link to="/insert-invoice" className="action-button">Insert Invoice</Link>
         <Link to="/delete-invoice" className="action-button">Delete Invoice</Link>
+        <Link to="/register" className="action-button">Register</Link>
       </div>
       <table className="invoice-table">
         <thead>

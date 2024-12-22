@@ -9,6 +9,7 @@ import PrivateRoute from './components/PrivateRoute';
 import InsertInvoice from './components/InsertInvoice';
 import DeleteInvoice from './components/DeleteInvoice';
 
+
 const App = () => {
   return (
     <AuthProvider>
